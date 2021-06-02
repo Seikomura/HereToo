@@ -375,15 +375,15 @@ contract TokenTimelock {
 
 
 /**
- * @title OMGToken
- * @dev Omise Go Token contract
+ * @title HereToo Token
+ * @dev HereToo Token contract
  */
 contract SafeMe is PausableToken, MintableToken {
   using SafeMath for uint256;
 
-  string public name = "SafeMe Token";
-  string public symbol = "SAFEME";
-  uint public decimals = 9;
+  string public name = "HereToo Token";
+  string public symbol = "HERETOO";
+  uint public decimals = 18;
 
   /**
    * @dev mint timelocked tokens
